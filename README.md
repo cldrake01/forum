@@ -8,7 +8,7 @@ We use [Yarn](https://yarnpkg.com) as our package manager. You can install it by
 npm install -g yarn
 ```
 
-For boilerplate, we use shadcn-svelte. Make sure to run:
+For boilerplate, we use [shadcn-svelte](https://www.shadcn-svelte.com/). Make sure to run:
 
 ```bash
 yarn dlx sv add tailwindcss
@@ -30,7 +30,7 @@ For our icons, we use [Lucide](https://lucide.netlify.app). You can install it b
 yarn add lucide
 ```
 
-For our graph components, we use [SvelteFlow]()https://svelteflow.dev/). You can install it by running:
+For our graph components, we use [SvelteFlow](https://svelteflow.dev/). You can install it by running:
 
 ```bash
 yarn add @xyflow/svelte
