@@ -1,5 +1,19 @@
 # forum
 
+## Usage
+
+To start the development server, run:
+
+```bash
+yarn dev
+```
+
+To build the project, run:
+
+```bash
+yarn build
+```
+
 ## Installation
 
 We use [Yarn](https://yarnpkg.com) as our package manager. You can install it by running:
