@@ -10,7 +10,7 @@ yarn dev
 
 To build the project, run:
 
-```zsh
+```bash
 yarn build
 ```
 
