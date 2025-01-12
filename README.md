@@ -22,8 +22,6 @@ To install shadcn components, run:
 yarn dlx shadcn-svelte@latest add <component>
 ```
 
-See the [shadcn-svelte](https://www.shadcn-svelte.com/docs) documentation.
-
 For our icons, we use [Lucide](https://lucide.netlify.app). You can install it by running:
 
 ```bash
