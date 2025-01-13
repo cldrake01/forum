@@ -719,7 +719,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sveltejs/kit@npm:^2.0.0":
+"@sveltejs/kit@npm:^2.15.2":
   version: 2.15.2
   resolution: "@sveltejs/kit@npm:2.15.2"
   dependencies:
@@ -1744,7 +1744,7 @@ __metadata:
   dependencies:
     "@sveltejs/adapter-auto": "npm:^3.0.0"
     "@sveltejs/adapter-vercel": "npm:^5.5.2"
-    "@sveltejs/kit": "npm:^2.0.0"
+    "@sveltejs/kit": "npm:^2.15.2"
     "@sveltejs/vite-plugin-svelte": "npm:^4.0.0"
     "@xyflow/svelte": "npm:^0.1.26"
     "@yarnpkg/plugin-dlx": "npm:^4.0.0"
