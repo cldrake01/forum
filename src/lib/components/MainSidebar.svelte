@@ -1,23 +1,18 @@
 <script lang="ts">
-	import { Calendar, House, Inbox, Search, Settings } from "lucide-svelte";
+	import { Map, MessageCircleQuestion, Search, Settings } from "lucide-svelte";
 	import * as Sidebar from "$lib/components/ui/sidebar/index.js";
 
 	// Menu items.
 	const items = [
 		{
-			title: "Home",
+			title: "Map",
 			url: "#",
-			icon: House
+			icon: Map
 		},
 		{
-			title: "Inbox",
+			title: "Forum",
 			url: "#",
-			icon: Inbox
-		},
-		{
-			title: "Calendar",
-			url: "#",
-			icon: Calendar
+			icon: MessageCircleQuestion
 		},
 		{
 			title: "Search",
@@ -35,7 +30,7 @@
 <Sidebar.Root>
 	<Sidebar.Content>
 		<Sidebar.Group>
-			<Sidebar.GroupLabel>Application</Sidebar.GroupLabel>
+			<Sidebar.GroupLabel>P2P Forum</Sidebar.GroupLabel>
 			<Sidebar.GroupContent>
 				<Sidebar.Menu>
 					{#each items as item (item.title)}

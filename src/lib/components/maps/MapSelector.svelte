@@ -2,7 +2,7 @@
 	import { Button } from "$lib/components/ui/button/index.js";
 	import { Waypoints, FolderTree, Network } from "lucide-svelte";
 
-	let options = { Graph: Waypoints, Tree: FolderTree, Directory: Network };
+	let options = { Graph: Waypoints, Tree: Network, Directory: FolderTree };
 
 	let selected = "Graph";
 </script>
